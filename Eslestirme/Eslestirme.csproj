@@ -7,11 +7,26 @@
     <ProjectGuid>{2AED51DB-1014-4F12-97F3-32E5FAD8486A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Eslestirme</RootNamespace>
-    <AssemblyName>Eslestirme</AssemblyName>
+    <RootNamespace>EslestirmeOyunu</RootNamespace>
+    <AssemblyName>EslestirmeOyunu</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,6 +48,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -59,14 +83,17 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Eslestirme.OyunYoneticisi.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -79,6 +106,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+    <None Include="bin\Debug\resimler\untitled - Copy.png" />
+    <None Include="bin\Debug\resimler\uıuyıuyıtyu - Copy.png" />
+    <None Include="bin\Debug\resimler\rtyert - Copy.png" />
+    <None Include="bin\Debug\resimler\nvbcnt - Copy.png" />
+    <None Include="bin\Debug\resimler\lkgjkhkfvbvbd - Copy.png" />
+    <None Include="bin\Debug\resimler\ktykltkgbng - Copy.png" />
+    <None Include="bin\Debug\resimler\kljkhljkhlj - Copy.png" />
+    <None Include="bin\Debug\resimler\ghrtklşukrtur - Copy.png" />
+    <None Include="bin\Debug\resimler\dkghtu - Copy.png" />
+    <None Include="bin\Debug\resimler\asfasfasf - Copy.png" />
+    <Content Include="bin\Debug\resimler\asfasfasf.png" />
+    <Content Include="bin\Debug\resimler\dkghtu.png" />
+    <Content Include="bin\Debug\resimler\ghrtklşukrtur.png" />
+    <Content Include="bin\Debug\resimler\kljkhljkhlj.png" />
+    <Content Include="bin\Debug\resimler\ktykltkgbng.png" />
+    <Content Include="bin\Debug\resimler\lkgjkhkfvbvbd.png" />
+    <Content Include="bin\Debug\resimler\nvbcnt.png" />
+    <Content Include="bin\Debug\resimler\rtyert.png" />
+    <Content Include="bin\Debug\resimler\untitled.png" />
+    <Content Include="bin\Debug\resimler\uıuyıuyıtyu.png" />
+    <Content Include="resimler\asfasfasf.png" />
+    <Content Include="resimler\dkghtu.png" />
+    <Content Include="resimler\ghrtklşukrtur.png" />
+    <Content Include="resimler\kljkhljkhlj.png" />
+    <Content Include="resimler\ktykltkgbng.png" />
+    <Content Include="resimler\lkgjkhkfvbvbd.png" />
+    <Content Include="resimler\nvbcnt.png" />
+    <Content Include="resimler\rtyert.png" />
+    <Content Include="resimler\untitled.png" />
+    <Content Include="resimler\uıuyıuyıtyu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
