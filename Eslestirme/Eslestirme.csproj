@@ -108,7 +108,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Image1.bmp" />
+    <None Include="resimler\varsayilan.png" />
+    <None Include="bin\Debug\resimler\varsayilan.png" />
     <None Include="bin\Debug\resimler\untitled - Copy.png" />
     <None Include="bin\Debug\resimler\uıuyıuyıtyu - Copy.png" />
     <None Include="bin\Debug\resimler\rtyert - Copy.png" />
@@ -129,16 +130,6 @@
     <Content Include="bin\Debug\resimler\rtyert.png" />
     <Content Include="bin\Debug\resimler\untitled.png" />
     <Content Include="bin\Debug\resimler\uıuyıuyıtyu.png" />
-    <Content Include="resimler\asfasfasf.png" />
-    <Content Include="resimler\dkghtu.png" />
-    <Content Include="resimler\ghrtklşukrtur.png" />
-    <Content Include="resimler\kljkhljkhlj.png" />
-    <Content Include="resimler\ktykltkgbng.png" />
-    <Content Include="resimler\lkgjkhkfvbvbd.png" />
-    <Content Include="resimler\nvbcnt.png" />
-    <Content Include="resimler\rtyert.png" />
-    <Content Include="resimler\untitled.png" />
-    <Content Include="resimler\uıuyıuyıtyu.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -151,6 +142,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

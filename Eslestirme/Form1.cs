@@ -24,12 +24,9 @@ namespace Eslestirme {
         private void Form1_Load(object sender, EventArgs e) {
             Ayarla();
             yonetici=new OyunYoneticisi();
-
             for(int i = 0; i<boxes.Length; i++) {
                 boxes[i].Image=OyunYoneticisi.varsayilanResim;
             }
-
-
         }
 
         private void Ayarla() {
@@ -61,7 +58,6 @@ namespace Eslestirme {
             Thread.Sleep(5000);
             for(int i = 0; i<boxes.Length; i++) {
                 boxes[i].Image=OyunYoneticisi.varsayilanResim;
-                boxes[i].Visible=true;
             }
             label2.Text=OyunYoneticisi.acilanResimSayisi.ToString();
             label1.Text=OyunYoneticisi.bulunanEsSayisi.ToString();
@@ -69,16 +65,20 @@ namespace Eslestirme {
         }
         private void ResimleriGoster() {
             for(int i = 0; i<boxes.Length; i++) {
+                boxes[i].Visible=true;
                 boxes[i].Image=OyunYoneticisi.resimler[i];
                 boxes[i].Refresh();
             }
         }
         private void ResimAc(object sender, MouseEventArgs e) {
+            PictureBox clicked = sender as PictureBox;
             OyunYoneticisi.acilanResimSayisi++;
             for(int i = 0; i<boxes.Length; i++) {
-                if(((PictureBox)sender).Equals(boxes[i])) {
+                if(clicked.Equals(boxes[i])) {
                     boxes[i].Image=OyunYoneticisi.resimler[i];
                     boxes[i].Refresh();
+                    if(OyunYoneticisi.acikResimler.Exists(x => x==i))
+                        return;
                     OyunYoneticisi.acikResimler.Add(i);
                     break;
                 }
@@ -95,7 +95,6 @@ namespace Eslestirme {
             if(OyunYoneticisi.acikResimler.Count==2) {
                 if(Convert.ToInt32(OyunYoneticisi.resimler[OyunYoneticisi.acikResimler.ElementAt(0)].Tag)==Convert.ToInt32(OyunYoneticisi.resimler[OyunYoneticisi.acikResimler.ElementAt(1)].Tag)) {
                     OyunYoneticisi.bulunanEsSayisi++;
-
                     for(int i = 0; i<2; i++) {
                         boxes[OyunYoneticisi.acikResimler.ElementAt(i)].Visible=false;
                     }
@@ -104,7 +103,7 @@ namespace Eslestirme {
                         boxes[OyunYoneticisi.acikResimler.ElementAt(i)].Image=OyunYoneticisi.varsayilanResim;
                     }
                 }
-                OyunYoneticisi.acikResimler.RemoveRange(0, 2);
+                OyunYoneticisi.acikResimler.RemoveAll(x => x<100);
             }
             label2.Text=OyunYoneticisi.acilanResimSayisi.ToString();
             label1.Text=OyunYoneticisi.bulunanEsSayisi.ToString();

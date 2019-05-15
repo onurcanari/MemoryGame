@@ -86,7 +86,6 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::EslestirmeOyunu.Properties.Resources.asfasfasf;
             this.pictureBox1.Location = new System.Drawing.Point(5, 8);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(9);
             this.pictureBox1.Name = "pictureBox1";

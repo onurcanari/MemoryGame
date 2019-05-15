@@ -63,9 +63,9 @@ namespace EslestirmeOyunu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap asfasfasf {
+        public static System.Drawing.Bitmap _0 {
             get {
-                object obj = ResourceManager.GetObject("asfasfasf", resourceCulture);
+                object obj = ResourceManager.GetObject("_0", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace EslestirmeOyunu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap asfasfasf___Copy {
+        public static System.Drawing.Bitmap _1 {
             get {
-                object obj = ResourceManager.GetObject("asfasfasf___Copy", resourceCulture);
+                object obj = ResourceManager.GetObject("_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace EslestirmeOyunu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap dkghtu {
+        public static System.Drawing.Bitmap _2 {
             get {
-                object obj = ResourceManager.GetObject("dkghtu", resourceCulture);
+                object obj = ResourceManager.GetObject("_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace EslestirmeOyunu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap dkghtu___Copy {
+        public static System.Drawing.Bitmap _3 {
             get {
-                object obj = ResourceManager.GetObject("dkghtu___Copy", resourceCulture);
+                object obj = ResourceManager.GetObject("_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace EslestirmeOyunu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap ghrtklşukrtur {
+        public static System.Drawing.Bitmap _4 {
             get {
-                object obj = ResourceManager.GetObject("ghrtklşukrtur", resourceCulture);
+                object obj = ResourceManager.GetObject("_4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace EslestirmeOyunu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap ghrtklşukrtur___Copy {
+        public static System.Drawing.Bitmap _5 {
             get {
-                object obj = ResourceManager.GetObject("ghrtklşukrtur___Copy", resourceCulture);
+                object obj = ResourceManager.GetObject("_5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace EslestirmeOyunu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap Image1 {
+        public static System.Drawing.Bitmap _6 {
             get {
-                object obj = ResourceManager.GetObject("Image1", resourceCulture);
+                object obj = ResourceManager.GetObject("_6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace EslestirmeOyunu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap kljkhljkhlj {
+        public static System.Drawing.Bitmap _7 {
             get {
-                object obj = ResourceManager.GetObject("kljkhljkhlj", resourceCulture);
+                object obj = ResourceManager.GetObject("_7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace EslestirmeOyunu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap kljkhljkhlj___Copy {
+        public static System.Drawing.Bitmap _8 {
             get {
-                object obj = ResourceManager.GetObject("kljkhljkhlj___Copy", resourceCulture);
+                object obj = ResourceManager.GetObject("_8", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace EslestirmeOyunu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap ktykltkgbng {
+        public static System.Drawing.Bitmap _9 {
             get {
-                object obj = ResourceManager.GetObject("ktykltkgbng", resourceCulture);
+                object obj = ResourceManager.GetObject("_9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,109 +163,9 @@ namespace EslestirmeOyunu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap ktykltkgbng___Copy {
+        public static System.Drawing.Bitmap varsayilan {
             get {
-                object obj = ResourceManager.GetObject("ktykltkgbng___Copy", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap lkgjkhkfvbvbd {
-            get {
-                object obj = ResourceManager.GetObject("lkgjkhkfvbvbd", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap lkgjkhkfvbvbd___Copy {
-            get {
-                object obj = ResourceManager.GetObject("lkgjkhkfvbvbd___Copy", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap nvbcnt {
-            get {
-                object obj = ResourceManager.GetObject("nvbcnt", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap nvbcnt___Copy {
-            get {
-                object obj = ResourceManager.GetObject("nvbcnt___Copy", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap rtyert {
-            get {
-                object obj = ResourceManager.GetObject("rtyert", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap rtyert___Copy {
-            get {
-                object obj = ResourceManager.GetObject("rtyert___Copy", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap uıuyıuyıtyu {
-            get {
-                object obj = ResourceManager.GetObject("uıuyıuyıtyu", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap uıuyıuyıtyu___Copy {
-            get {
-                object obj = ResourceManager.GetObject("uıuyıuyıtyu___Copy", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap untitled {
-            get {
-                object obj = ResourceManager.GetObject("untitled", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap untitled___Copy {
-            get {
-                object obj = ResourceManager.GetObject("untitled___Copy", resourceCulture);
+                object obj = ResourceManager.GetObject("varsayilan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

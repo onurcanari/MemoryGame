@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EslestirmeOyunu.Properties;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -21,12 +22,7 @@ namespace Eslestirme
         public OyunYoneticisi() {
             resimler=new Image[20];
             acikResimler = new List<int>(2);
-            string[] path = Directory.GetFiles(@"resimler/", "*.png");
-            for(int i = 0; i<resimler.Length; i++) 
-                resimler[i]=Image.FromFile(path[i]);
-            varsayilanResim=Image.FromFile(@"resimler/varsayilan.png");
-            varsayilanResim.Tag=-1;
-            ResimleriNumaralandir();
+            ResimleriOluştur();
         }
         public void YeniOyun()
         {
@@ -54,19 +50,15 @@ namespace Eslestirme
                 resimler[rndSayi].Tag = tagTemp;
             }
         }
-
-        // tıklanan resmi açar. Açık olan resim sayısı 2 ise resimleri kontrol eder.
-        // Eğer aynı değillerse resimleri kapatır.
-
-        private void ResimleriNumaralandir() {
-            int j = 1;
-            for(int i = 0; i<resimler.Length; i+=2) {
+        private void ResimleriOluştur() {
+            int j = 0;
+            for(int i = 0; i<resimler.Length; i++) {
+                resimler[i]=Resources.ResourceManager.GetObject("_"+j) as Image;
                 resimler[i].Tag=j++;
+                if(j==10) j=0;
             }
-            j=1;
-            for(int i = 1; i<resimler.Length; i+=2) {
-                resimler[i].Tag=j++;
-            }
+            varsayilanResim=Resources.varsayilan;
+            varsayilanResim.Tag=-1;
         }
     }
 }
